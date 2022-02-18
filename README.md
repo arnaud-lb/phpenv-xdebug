@@ -1,5 +1,9 @@
 # phpenv xdebug plugin
 
+This plugin will automatially enable Xdebug when you need it.
+
+It works by adding `-dzend_extension=xdebug.so` to your `php` command when the `XDEBUG_MODE` environment variable is set to a non empty value.
+
 ## Install
 
 ```console
