@@ -1,6 +1,6 @@
 #!/bin/false
 #
-# Summary: phpenv composer plugin
+# Summary: phpenv xdebug plugin
 set -e
 [ -n "$PHPENV_DEBUG" ] && set -x
 
